@@ -17,10 +17,9 @@ cd experiments
 env CUDA_VISIBLE_DEVICES=1 ./performance_breakdown_salient.sh ogbn-papers100M
 ```
 
+-  for salient, ogbn-paper
 ```
-# for salient, ogbn-paper
 env CUDA_VISIBLE_DEVICES=1 python -m driver.main ogbn-papers100M single_gpu_salient_ogbn-papers100M --config_file /home/data/qzhouam/SALIENT_artifact/experiments/performance_breakdown_config.cfg --dataset_root /home/data/qzhouam/SALIENT_artifact/experiments/dataset --output_root /home/data/qzhouam/SALIENT_artifact/experiments/job_output_single_gpu --overwrite_job_dir
-
 ```
 
 
